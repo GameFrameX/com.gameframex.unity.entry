@@ -1,0 +1,23 @@
+{
+  "name": "GameFrameX.Entry.Runtime",
+  "references": [
+    "GameFrameX.Runtime",
+    "GameFrameX.Web.Runtime"
+  ],
+  "rootNamespace": "GameFrameX.Entry.Runtime",
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "com.alianblank.gameframex.web",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_WEB"
+    }
+  ],
+  "noEngineReferences": false
+}
