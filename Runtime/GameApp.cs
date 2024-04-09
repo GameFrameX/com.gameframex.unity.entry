@@ -1,5 +1,7 @@
 ﻿using GameFrameX.Runtime;
-
+#if ENABLE_GAME_FRAME_X_PROCEDURE
+using GameFrameX.Procedure.Runtime;
+#endif
 #if ENABLE_GAME_FRAME_X_FSM
 using GameFrameX.Fsm.Runtime;
 #endif
@@ -176,7 +178,7 @@ public static class GameApp
     }
 
     private static ObjectPoolComponent _objectPool;
-
+#if ENABLE_GAME_FRAME_X_PROCEDURE
     /// <summary>
     /// 获取流程组件。
     /// </summary>
@@ -194,7 +196,7 @@ public static class GameApp
     }
 
     private static ProcedureComponent _procedure;
-
+#endif
     /// <summary>
     /// 获取场景组件。
     /// </summary>
