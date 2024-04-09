@@ -1,4 +1,7 @@
-﻿using GameFrameX.Runtime;
+﻿#if ENABLE_GAME_FRAME_X_MONO
+using GameFrameX.Mono.Runtime;
+#endif
+using GameFrameX.Runtime;
 #if ENABLE_GAME_FRAME_X_SETTING
 using GameFrameX.Setting.Runtime;
 #endif
@@ -367,7 +370,7 @@ public static class GameApp
     }
 
     private static LuaComponent _lua;
-
+#if ENABLE_GAME_FRAME_X_MONO
     /// <summary>
     /// 获取Mono组件。
     /// </summary>
@@ -385,7 +388,7 @@ public static class GameApp
     }
 
     private static MonoComponent _mono;
-
+#endif
 #if ENABLE_GAME_FRAME_X_TIMER
     /// <summary>
     /// 获取定时器组件。

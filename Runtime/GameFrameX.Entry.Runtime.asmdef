@@ -7,7 +7,8 @@
     "GameFrameX.Timer.Runtime",
     "GameFrameX.FSM.Runtime",
     "GameFrameX.Procedure.Runtime",
-    "GameFrameX.Setting.Runtime"
+    "GameFrameX.Setting.Runtime",
+    "GameFrameX.Mono.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -47,6 +48,11 @@
       "name": "com.alianblank.gameframex.setting",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_SETTING"
+    },
+    {
+      "name": "com.alianblank.gameframex.mono",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_MONO"
     }
   ],
   "noEngineReferences": false
