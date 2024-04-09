@@ -1,4 +1,8 @@
 ﻿using GameFrameX.Runtime;
+
+#if ENABLE_GAME_FRAME_X_GLOBAL_CONFIG
+using GameFrameX.GlobalConfig.Runtime;
+#endif
 #if ENABLE_GAME_FRAME_X_TIMER
 using GameFrameX.Timer.Runtime;
 #endif
@@ -394,6 +398,7 @@ public static class GameApp
     private static TimerComponent _timer;
 #endif
 
+#if ENABLE_GAME_FRAME_X_GLOBAL_CONFIG
     /// <summary>
     /// 获取全局配置组件。
     /// </summary>
@@ -411,4 +416,5 @@ public static class GameApp
     }
 
     private static GlobalConfigComponent _globalConfig;
+#endif
 }

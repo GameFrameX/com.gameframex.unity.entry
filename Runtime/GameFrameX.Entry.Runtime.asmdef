@@ -2,7 +2,8 @@
   "name": "GameFrameX.Entry.Runtime",
   "references": [
     "GameFrameX.Runtime",
-    "GameFrameX.Web.Runtime"
+    "GameFrameX.Web.Runtime",
+    "GameFrameX.GlobalConfig.Runtime",
     "GameFrameX.Timer.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
@@ -24,6 +25,10 @@
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_TIMER"
     },
+    {
+      "name": "com.alianblank.gameframex.globalconfig",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_GLOBAL_CONFIG"
     }
   ],
   "noEngineReferences": false
