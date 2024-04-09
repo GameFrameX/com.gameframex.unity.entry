@@ -1,7 +1,10 @@
-﻿#if ENABLE_GAME_FRAME_X_MONO
+﻿using GameFrameX.Runtime;
+#if ENABLE_GAME_FRAME_X_MONO
 using GameFrameX.Mono.Runtime;
 #endif
-using GameFrameX.Runtime;
+#if ENABLE_GAME_FRAME_X_COROUTINE
+using GameFrameX.Coroutine.Runtime;
+#endif
 #if ENABLE_GAME_FRAME_X_SETTING
 using GameFrameX.Setting.Runtime;
 #endif
@@ -427,5 +430,25 @@ public static class GameApp
     }
 
     private static GlobalConfigComponent _globalConfig;
+#endif
+
+#if ENABLE_GAME_FRAME_X_COROUTINE
+    /// <summary>
+    /// 获取协程组件。
+    /// </summary>
+    public static CoroutineComponent Coroutine
+    {
+        get
+        {
+            if (_coroutine == null)
+            {
+                _coroutine = GameEntry.GetComponent<CoroutineComponent>();
+            }
+
+            return _coroutine;
+        }
+    }
+
+    private static CoroutineComponent _coroutine;
 #endif
 }
