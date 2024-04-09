@@ -17,6 +17,12 @@
       "name": "com.alianblank.gameframex.web",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_WEB"
+    },
+    {
+      "name": "com.alianblank.gameframex.timer",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_TIMER"
+    },
     }
   ],
   "noEngineReferences": false

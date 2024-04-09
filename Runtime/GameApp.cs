@@ -1,4 +1,7 @@
 ﻿using GameFrameX.Runtime;
+#if ENABLE_GAME_FRAME_X_TIMER
+using GameFrameX.Timer.Runtime;
+#endif
 #if ENABLE_GAME_FRAME_X_WEB
 using GameFrameX.Web.Runtime;
 #endif
@@ -371,6 +374,7 @@ public static class GameApp
 
     private static MonoComponent _mono;
 
+#if ENABLE_GAME_FRAME_X_TIMER
     /// <summary>
     /// 获取定时器组件。
     /// </summary>
@@ -388,6 +392,7 @@ public static class GameApp
     }
 
     private static TimerComponent _timer;
+#endif
 
     /// <summary>
     /// 获取全局配置组件。
