@@ -6,7 +6,8 @@
     "GameFrameX.GlobalConfig.Runtime",
     "GameFrameX.Timer.Runtime",
     "GameFrameX.FSM.Runtime",
-    "GameFrameX.Procedure.Runtime"
+    "GameFrameX.Procedure.Runtime",
+    "GameFrameX.Setting.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -41,6 +42,11 @@
       "name": "com.alianblank.gameframex.procedure",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_PROCEDURE"
+    },
+    {
+      "name": "com.alianblank.gameframex.setting",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_SETTING"
     }
   ],
   "noEngineReferences": false

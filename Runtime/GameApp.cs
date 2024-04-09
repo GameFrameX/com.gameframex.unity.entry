@@ -1,4 +1,7 @@
 ﻿using GameFrameX.Runtime;
+#if ENABLE_GAME_FRAME_X_SETTING
+using GameFrameX.Setting.Runtime;
+#endif
 #if ENABLE_GAME_FRAME_X_PROCEDURE
 using GameFrameX.Procedure.Runtime;
 #endif
@@ -214,7 +217,7 @@ public static class GameApp
     }
 
     private static SceneComponent _scene;
-
+#if ENABLE_GAME_FRAME_X_SETTING
     /// <summary>
     /// 获取配置组件。
     /// </summary>
@@ -232,7 +235,7 @@ public static class GameApp
     }
 
     private static SettingComponent _setting;
-
+#endif
     /// <summary>
     /// 获取声音组件。
     /// </summary>
