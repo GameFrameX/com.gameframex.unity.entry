@@ -5,6 +5,7 @@
     "GameFrameX.Web.Runtime",
     "GameFrameX.GlobalConfig.Runtime",
     "GameFrameX.Timer.Runtime"
+    "GameFrameX.FSM.Runtime",
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -29,6 +30,12 @@
       "name": "com.alianblank.gameframex.globalconfig",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_GLOBAL_CONFIG"
+    },
+    {
+      "name": "com.alianblank.gameframex.fsm",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_FSM"
+    },
     }
   ],
   "noEngineReferences": false

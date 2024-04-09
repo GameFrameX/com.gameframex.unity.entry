@@ -1,5 +1,8 @@
 ﻿using GameFrameX.Runtime;
 
+#if ENABLE_GAME_FRAME_X_FSM
+using GameFrameX.Fsm.Runtime;
+#endif
 #if ENABLE_GAME_FRAME_X_GLOBAL_CONFIG
 using GameFrameX.GlobalConfig.Runtime;
 #endif
@@ -101,7 +104,7 @@ public static class GameApp
     }
 
     private static EventComponent _event;
-
+#if ENABLE_GAME_FRAME_X_FSM
     /// <summary>
     /// 获取有限状态机组件。
     /// </summary>
@@ -119,7 +122,7 @@ public static class GameApp
     }
 
     private static FsmComponent _fsm;
-
+#endif
     /// <summary>
     /// 获取本地化组件。
     /// </summary>
