@@ -3,6 +3,7 @@
   "references": [
     "GameFrameX.Runtime",
     "GameFrameX.Web.Runtime"
+    "GameFrameX.Timer.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
