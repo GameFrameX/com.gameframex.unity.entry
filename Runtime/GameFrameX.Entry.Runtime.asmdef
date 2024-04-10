@@ -12,7 +12,8 @@
     "GameFrameX.Coroutine.Runtime",
     "GameFrameX.Download.Runtime",
     "GameFrameX.Scene.Runtime",
-    "GameFrameX.Sound.Runtime"
+    "GameFrameX.Sound.Runtime",
+    "GameFrameX.Event.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -77,6 +78,11 @@
       "name": "com.alianblank.gameframex.sound",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_SOUND"
+    },
+    {
+      "name": "com.alianblank.gameframex.event",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_EVENT"
     }
   ],
   "noEngineReferences": false
