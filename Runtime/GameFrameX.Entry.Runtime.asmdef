@@ -18,7 +18,8 @@
     "GameFrameX.Asset.Runtime",
     "GameFrameX.Entity.Runtime",
     "GameFrameX.Localization.Runtime",
-    "GameFrameX.Config.Runtime"
+    "GameFrameX.Config.Runtime",
+    "GameFrameX.Network.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -113,6 +114,11 @@
       "name": "com.alianblank.gameframex.config",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_CONFIG"
+    },
+    {
+      "name": "com.alianblank.gameframex.network",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_NETWORK"
     }
   ],
   "noEngineReferences": false

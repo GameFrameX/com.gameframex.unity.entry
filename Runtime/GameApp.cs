@@ -20,25 +20,6 @@ public static partial class GameApp
 
     private static BaseComponent _base;
 
-
-    /// <summary>
-    /// 获取网络组件。
-    /// </summary>
-    public static NetworkComponent Network
-    {
-        get
-        {
-            if (_network == null)
-            {
-                _network = GameEntry.GetComponent<NetworkComponent>();
-            }
-
-            return _network;
-        }
-    }
-
-    private static NetworkComponent _network;
-
     /// <summary>
     /// 获取对象池组件。
     /// </summary>
