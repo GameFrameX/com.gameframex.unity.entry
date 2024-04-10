@@ -16,7 +16,8 @@
     "GameFrameX.Event.Runtime",
     "GameFrameX.FairyGUI.Runtime",
     "GameFrameX.Asset.Runtime",
-    "GameFrameX.Entity.Runtime"
+    "GameFrameX.Entity.Runtime",
+    "GameFrameX.Localization.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -101,6 +102,11 @@
       "name": "com.alianblank.gameframex.entity",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_ENTITY"
+    },
+    {
+      "name": "com.alianblank.gameframex.localization",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_LOCALIZATION"
     }
   ],
   "noEngineReferences": false
