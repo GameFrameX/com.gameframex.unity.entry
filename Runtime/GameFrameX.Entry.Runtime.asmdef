@@ -15,7 +15,8 @@
     "GameFrameX.Sound.Runtime",
     "GameFrameX.Event.Runtime",
     "GameFrameX.FairyGUI.Runtime",
-    "GameFrameX.Asset.Runtime"
+    "GameFrameX.Asset.Runtime",
+    "GameFrameX.Entity.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -95,6 +96,11 @@
       "name": "com.alianblank.gameframex.asset",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_ASSET"
+    },
+    {
+      "name": "com.alianblank.gameframex.entity",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_ENTITY"
     }
   ],
   "noEngineReferences": false
