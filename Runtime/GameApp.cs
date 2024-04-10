@@ -20,24 +20,6 @@ public static partial class GameApp
 
     private static BaseComponent _base;
 
-    /// <summary>
-    /// 获取配置组件。
-    /// </summary>
-    public static ConfigComponent Config
-    {
-        get
-        {
-            if (_config == null)
-            {
-                _config = GameEntry.GetComponent<ConfigComponent>();
-            }
-
-            return _config;
-        }
-    }
-
-    private static ConfigComponent _config;
-
 
     /// <summary>
     /// 获取网络组件。
