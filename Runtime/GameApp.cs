@@ -1,30 +1,6 @@
 ﻿using GameFrameX.Runtime;
-#if ENABLE_GAME_FRAME_X_MONO
-using GameFrameX.Mono.Runtime;
-#endif
-#if ENABLE_GAME_FRAME_X_COROUTINE
-using GameFrameX.Coroutine.Runtime;
-#endif
-#if ENABLE_GAME_FRAME_X_SETTING
-using GameFrameX.Setting.Runtime;
-#endif
-#if ENABLE_GAME_FRAME_X_PROCEDURE
-using GameFrameX.Procedure.Runtime;
-#endif
-#if ENABLE_GAME_FRAME_X_FSM
-using GameFrameX.Fsm.Runtime;
-#endif
-#if ENABLE_GAME_FRAME_X_GLOBAL_CONFIG
-using GameFrameX.GlobalConfig.Runtime;
-#endif
-#if ENABLE_GAME_FRAME_X_TIMER
-using GameFrameX.Timer.Runtime;
-#endif
-#if ENABLE_GAME_FRAME_X_WEB
-using GameFrameX.Web.Runtime;
-#endif
 
-public static class GameApp
+public static partial class GameApp
 {
     /// <summary>
     /// 获取游戏基础组件。
@@ -115,25 +91,7 @@ public static class GameApp
     }
 
     private static EventComponent _event;
-#if ENABLE_GAME_FRAME_X_FSM
-    /// <summary>
-    /// 获取有限状态机组件。
-    /// </summary>
-    public static FsmComponent Fsm
-    {
-        get
-        {
-            if (_fsm == null)
-            {
-                _fsm = GameEntry.GetComponent<FsmComponent>();
-            }
 
-            return _fsm;
-        }
-    }
-
-    private static FsmComponent _fsm;
-#endif
     /// <summary>
     /// 获取本地化组件。
     /// </summary>
@@ -187,25 +145,7 @@ public static class GameApp
     }
 
     private static ObjectPoolComponent _objectPool;
-#if ENABLE_GAME_FRAME_X_PROCEDURE
-    /// <summary>
-    /// 获取流程组件。
-    /// </summary>
-    public static ProcedureComponent Procedure
-    {
-        get
-        {
-            if (_procedure == null)
-            {
-                _procedure = GameEntry.GetComponent<ProcedureComponent>();
-            }
 
-            return _procedure;
-        }
-    }
-
-    private static ProcedureComponent _procedure;
-#endif
     /// <summary>
     /// 获取场景组件。
     /// </summary>
@@ -223,25 +163,7 @@ public static class GameApp
     }
 
     private static SceneComponent _scene;
-#if ENABLE_GAME_FRAME_X_SETTING
-    /// <summary>
-    /// 获取配置组件。
-    /// </summary>
-    public static SettingComponent Setting
-    {
-        get
-        {
-            if (_setting)
-            {
-                _setting = GameEntry.GetComponent<SettingComponent>();
-            }
 
-            return _setting;
-        }
-    }
-
-    private static SettingComponent _setting;
-#endif
     /// <summary>
     /// 获取声音组件。
     /// </summary>
@@ -277,27 +199,6 @@ public static class GameApp
     // }
     //
     // private static WebRequestComponent _webRequest;
-#if ENABLE_GAME_FRAME_X_WEB
-
-
-    /// <summary>
-    /// 获取Web组件。
-    /// </summary>
-    public static WebComponent Web
-    {
-        get
-        {
-            if (_web == null)
-            {
-                _web = GameEntry.GetComponent<WebComponent>();
-            }
-
-            return _web;
-        }
-    }
-
-    private static WebComponent _web;
-#endif
 
     /// <summary>
     /// 获取UI组件。
@@ -373,82 +274,4 @@ public static class GameApp
     }
 
     private static LuaComponent _lua;
-#if ENABLE_GAME_FRAME_X_MONO
-    /// <summary>
-    /// 获取Mono组件。
-    /// </summary>
-    public static MonoComponent Mono
-    {
-        get
-        {
-            if (_mono == null)
-            {
-                _mono = GameEntry.GetComponent<MonoComponent>();
-            }
-
-            return _mono;
-        }
-    }
-
-    private static MonoComponent _mono;
-#endif
-#if ENABLE_GAME_FRAME_X_TIMER
-    /// <summary>
-    /// 获取定时器组件。
-    /// </summary>
-    public static TimerComponent Timer
-    {
-        get
-        {
-            if (_timer == null)
-            {
-                _timer = GameEntry.GetComponent<TimerComponent>();
-            }
-
-            return _timer;
-        }
-    }
-
-    private static TimerComponent _timer;
-#endif
-
-#if ENABLE_GAME_FRAME_X_GLOBAL_CONFIG
-    /// <summary>
-    /// 获取全局配置组件。
-    /// </summary>
-    public static GlobalConfigComponent GlobalConfig
-    {
-        get
-        {
-            if (_globalConfig == null)
-            {
-                _globalConfig = GameEntry.GetComponent<GlobalConfigComponent>();
-            }
-
-            return _globalConfig;
-        }
-    }
-
-    private static GlobalConfigComponent _globalConfig;
-#endif
-
-#if ENABLE_GAME_FRAME_X_COROUTINE
-    /// <summary>
-    /// 获取协程组件。
-    /// </summary>
-    public static CoroutineComponent Coroutine
-    {
-        get
-        {
-            if (_coroutine == null)
-            {
-                _coroutine = GameEntry.GetComponent<CoroutineComponent>();
-            }
-
-            return _coroutine;
-        }
-    }
-
-    private static CoroutineComponent _coroutine;
-#endif
 }
