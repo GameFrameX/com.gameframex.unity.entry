@@ -10,7 +10,8 @@
     "GameFrameX.Setting.Runtime",
     "GameFrameX.Mono.Runtime",
     "GameFrameX.Coroutine.Runtime",
-    "GameFrameX.Download.Runtime"
+    "GameFrameX.Download.Runtime",
+    "GameFrameX.Scene.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -65,6 +66,11 @@
       "name": "com.alianblank.gameframex.download",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_DOWNLOAD"
+    }, 
+    {
+      "name": "com.alianblank.gameframex.scene",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_SCENE"
     }
   ],
   "noEngineReferences": false

@@ -129,24 +129,6 @@ public static partial class GameApp
     private static ObjectPoolComponent _objectPool;
 
     /// <summary>
-    /// 获取场景组件。
-    /// </summary>
-    public static SceneComponent Scene
-    {
-        get
-        {
-            if (_scene == null)
-            {
-                _scene = GameEntry.GetComponent<SceneComponent>();
-            }
-
-            return _scene;
-        }
-    }
-
-    private static SceneComponent _scene;
-
-    /// <summary>
     /// 获取声音组件。
     /// </summary>
     public static SoundComponent Sound
