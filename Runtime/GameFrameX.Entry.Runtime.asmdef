@@ -9,7 +9,8 @@
     "GameFrameX.Procedure.Runtime",
     "GameFrameX.Setting.Runtime",
     "GameFrameX.Mono.Runtime",
-    "GameFrameX.Coroutine.Runtime"
+    "GameFrameX.Coroutine.Runtime",
+    "GameFrameX.Download.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -59,6 +60,11 @@
       "name": "com.alianblank.gameframex.coroutine",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_COROUTINE"
+    },
+    {
+      "name": "com.alianblank.gameframex.download",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_DOWNLOAD"
     }
   ],
   "noEngineReferences": false

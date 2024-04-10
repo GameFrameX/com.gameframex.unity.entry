@@ -39,24 +39,6 @@ public static partial class GameApp
     private static ConfigComponent _config;
 
     /// <summary>
-    /// 获取下载组件。
-    /// </summary>
-    public static DownloadComponent Download
-    {
-        get
-        {
-            if (_download == null)
-            {
-                _download = GameEntry.GetComponent<DownloadComponent>();
-            }
-
-            return _download;
-        }
-    }
-
-    private static DownloadComponent _download;
-
-    /// <summary>
     /// 获取实体组件。
     /// </summary>
     public static EntityComponent Entity
