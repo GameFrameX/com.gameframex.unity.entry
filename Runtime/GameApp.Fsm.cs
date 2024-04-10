@@ -1,11 +1,9 @@
-﻿using GameFrameX.Runtime;
-#if ENABLE_GAME_FRAME_X_FSM
+﻿#if ENABLE_GAME_FRAME_X_FSM
+using GameFrameX.Runtime;
 using GameFrameX.Fsm.Runtime;
-#endif
 
 public static partial class GameApp
 {
-#if ENABLE_GAME_FRAME_X_FSM
     /// <summary>
     /// 获取有限状态机组件。
     /// </summary>
@@ -23,5 +21,5 @@ public static partial class GameApp
     }
 
     private static FsmComponent _fsm;
-#endif
 }
+#endif

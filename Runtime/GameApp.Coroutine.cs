@@ -1,11 +1,9 @@
-﻿using GameFrameX.Runtime;
-#if ENABLE_GAME_FRAME_X_COROUTINE
+﻿#if ENABLE_GAME_FRAME_X_COROUTINE
+using GameFrameX.Runtime;
 using GameFrameX.Coroutine.Runtime;
-#endif
 
 public static partial class GameApp
 {
-#if ENABLE_GAME_FRAME_X_COROUTINE
     /// <summary>
     /// 获取协程组件。
     /// </summary>
@@ -23,5 +21,5 @@ public static partial class GameApp
     }
 
     private static CoroutineComponent _coroutine;
-#endif
 }
+#endif

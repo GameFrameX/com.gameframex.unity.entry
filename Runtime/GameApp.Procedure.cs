@@ -1,11 +1,9 @@
-﻿using GameFrameX.Runtime;
-#if ENABLE_GAME_FRAME_X_PROCEDURE
+﻿#if ENABLE_GAME_FRAME_X_PROCEDURE
+using GameFrameX.Runtime;
 using GameFrameX.Procedure.Runtime;
-#endif
 
 public static partial class GameApp
 {
-#if ENABLE_GAME_FRAME_X_PROCEDURE
     /// <summary>
     /// 获取流程组件。
     /// </summary>
@@ -23,5 +21,5 @@ public static partial class GameApp
     }
 
     private static ProcedureComponent _procedure;
-#endif
 }
+#endif

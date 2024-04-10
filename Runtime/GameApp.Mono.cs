@@ -1,11 +1,9 @@
-﻿using GameFrameX.Runtime;
-#if ENABLE_GAME_FRAME_X_MONO
+﻿#if ENABLE_GAME_FRAME_X_MONO
+using GameFrameX.Runtime;
 using GameFrameX.Mono.Runtime;
-#endif
 
 public static partial class GameApp
 {
-#if ENABLE_GAME_FRAME_X_MONO
     /// <summary>
     /// 获取Mono组件。
     /// </summary>
@@ -23,5 +21,5 @@ public static partial class GameApp
     }
 
     private static MonoComponent _mono;
-#endif
 }
+#endif

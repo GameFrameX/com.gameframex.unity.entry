@@ -1,11 +1,9 @@
-﻿using GameFrameX.Runtime;
-#if ENABLE_GAME_FRAME_X_GLOBAL_CONFIG
+﻿#if ENABLE_GAME_FRAME_X_GLOBAL_CONFIG
+using GameFrameX.Runtime;
 using GameFrameX.GlobalConfig.Runtime;
-#endif
 
 public static partial class GameApp
 {
-#if ENABLE_GAME_FRAME_X_GLOBAL_CONFIG
     /// <summary>
     /// 获取全局配置组件。
     /// </summary>
@@ -23,5 +21,5 @@ public static partial class GameApp
     }
 
     private static GlobalConfigComponent _globalConfig;
-#endif
 }
+#endif
