@@ -19,6 +19,7 @@
     "GameFrameX.Entity.Runtime",
     "GameFrameX.Localization.Runtime",
     "GameFrameX.Config.Runtime",
+    "GameFrameX.Advertisement.Runtime",
     "GameFrameX.Network.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
@@ -119,6 +120,11 @@
       "name": "com.alianblank.gameframex.unity.network",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_NETWORK"
+    },
+    {
+      "name": "com.alianblank.gameframex.unity.advertisement",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_ADVERTISEMENT"
     }
   ],
   "noEngineReferences": false
