@@ -1,5 +1,5 @@
 {
-  "name": "com.alianblank.gameframex.unity.entry",
+  "name": "com.gameframex.unity.entry",
   "displayName": "Game Frame X Entry",
   "category": "Game Framework X",
   "description": "Game Frame X Entry",
@@ -9,8 +9,8 @@
     "Game Framework X"
   ],
   "repository": {
-    "name": "com.alianblank.gameframex.unity.entry",
-    "url": "https://github.com/AlianBlank/com.alianblank.gameframex.unity.entry.git",
+    "name": "com.gameframex.unity.entry",
+    "url": "https://github.com/AlianBlank/com.gameframex.unity.entry.git",
     "type": "git"
   },
   "author": {
