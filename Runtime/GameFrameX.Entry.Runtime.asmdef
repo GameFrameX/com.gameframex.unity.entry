@@ -11,6 +11,7 @@
     "GameFrameX.Mono.Runtime",
     "GameFrameX.Coroutine.Runtime",
     "GameFrameX.Download.Runtime",
+    "GameFrameX.GameAnalytics.Runtime",
     "GameFrameX.Scene.Runtime",
     "GameFrameX.Sound.Runtime",
     "GameFrameX.Event.Runtime",
@@ -125,6 +126,11 @@
       "name": "com.gameframex.unity.advertisement",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_ADVERTISEMENT"
+    },
+    {
+      "name": "com.gameframex.unity.gameanalytics",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_GAME_ANALYTICS"
     }
   ],
   "noEngineReferences": false
