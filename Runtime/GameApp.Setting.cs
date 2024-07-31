@@ -11,7 +11,7 @@ public static partial class GameApp
     {
         get
         {
-            if (_setting)
+            if (_setting == null)
             {
                 _setting = GameEntry.GetComponent<SettingComponent>();
             }
