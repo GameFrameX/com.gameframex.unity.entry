@@ -11,16 +11,16 @@ public static partial class GameApp
     {
         get
         {
-            if (_ui == null)
+            if (_fairyGUI == null)
             {
-                _ui = GameEntry.GetComponent<FairyGUIComponent>();
+                _fairyGUI = GameEntry.GetComponent<FairyGUIComponent>();
             }
 
-            return _ui;
+            return _fairyGUI;
         }
     }
 
-    private static FairyGUIComponent _ui;
+    private static FairyGUIComponent _fairyGUI;
 
 
     /// <summary>

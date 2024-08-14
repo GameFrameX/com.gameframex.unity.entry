@@ -16,6 +16,7 @@
     "GameFrameX.Sound.Runtime",
     "GameFrameX.Event.Runtime",
     "GameFrameX.FairyGUI.Runtime",
+    "GameFrameX.UI.Runtime",
     "GameFrameX.Asset.Runtime",
     "GameFrameX.Entity.Runtime",
     "GameFrameX.Localization.Runtime",
@@ -96,6 +97,11 @@
       "name": "com.gameframex.unity.fairygui",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_FAIYGUI"
+    },
+    {
+      "name": "com.gameframex.unity.ui",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_UI"
     },
     {
       "name": "com.gameframex.unity.asset",
