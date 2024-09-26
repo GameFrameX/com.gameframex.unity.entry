@@ -22,7 +22,8 @@
     "GameFrameX.Localization.Runtime",
     "GameFrameX.Config.Runtime",
     "GameFrameX.Advertisement.Runtime",
-    "GameFrameX.Network.Runtime"
+    "GameFrameX.Network.Runtime",
+    "GameFrameX.UI.FairyGUI.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -97,6 +98,11 @@
       "name": "com.gameframex.unity.fairygui",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_FAIYGUI"
+    },
+    {
+      "name": "com.gameframex.unity.ui.fairygui",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_UI_FAIYGUI"
     },
     {
       "name": "com.gameframex.unity.ui",
