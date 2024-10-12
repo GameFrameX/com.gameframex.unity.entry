@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.3](https://github.com/GameFrameX/com.gameframex.unity.entry/tree/1.0.3) (2024-10-12)
+
+[Full Changelog](https://github.com/GameFrameX/com.gameframex.unity.entry/compare/1.0.2...1.0.3)
+
 ## [1.0.2](https://github.com/GameFrameX/com.gameframex.unity.entry/tree/1.0.2) (2024-09-26)
 
 [Full Changelog](https://github.com/GameFrameX/com.gameframex.unity.entry/compare/45e5cdf267e84ce20bd5acf961a2f73cefb6deba...1.0.2)
