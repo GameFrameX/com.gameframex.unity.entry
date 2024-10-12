@@ -15,6 +15,7 @@
     "GameFrameX.Scene.Runtime",
     "GameFrameX.Sound.Runtime",
     "GameFrameX.Event.Runtime",
+    "GameFrameX.XLua.Runtime",
     "GameFrameX.FairyGUI.Runtime",
     "GameFrameX.UI.Runtime",
     "GameFrameX.Asset.Runtime",
@@ -133,6 +134,11 @@
       "name": "com.gameframex.unity.network",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_NETWORK"
+    },
+    {
+      "name": "com.gameframex.unity.xlua",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_X_LUA"
     },
     {
       "name": "com.gameframex.unity.advertisement",
