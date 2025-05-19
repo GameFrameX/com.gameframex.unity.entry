@@ -24,6 +24,7 @@
     "GameFrameX.Config.Runtime",
     "GameFrameX.Advertisement.Runtime",
     "GameFrameX.Network.Runtime",
+    "GameFrameX.RedDot.Runtime",
     "GameFrameX.UI.FairyGUI.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
@@ -35,6 +36,11 @@
   "autoReferenced": true,
   "defineConstraints": [],
   "versionDefines": [
+    {
+      "name": "com.gameframex.unity.reddot",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_RED_DOT"
+    },
     {
       "name": "com.gameframex.unity.web",
       "expression": "",
