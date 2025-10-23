@@ -26,7 +26,8 @@
     "GameFrameX.Network.Runtime",
     "GameFrameX.RedDot.Runtime",
     "GameFrameX.Guide.Runtime",
-    "GameFrameX.UI.FairyGUI.Runtime"
+    "GameFrameX.UI.FairyGUI.Runtime",
+    "GameFrameX.AppsFlyer.Runtime",
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -161,6 +162,12 @@
       "name": "com.gameframex.unity.gameanalytics",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_GAME_ANALYTICS"
+    },
+    {
+      "name": "com.gameframex.unity.appsflyer",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_APPSFLYER"
+    },
     }
   ],
   "noEngineReferences": false
