@@ -1,5 +1,5 @@
 #if ENABLE_GAME_FRAME_X_GOOGLE_LOGIN
-using GameFrameX.GoogleLogin.Runtime;
+using GameFrameX.Login.Google.Runtime;
 using GameFrameX.Runtime;
 
 public static partial class GameApp
