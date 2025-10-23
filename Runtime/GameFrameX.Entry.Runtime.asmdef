@@ -28,6 +28,7 @@
     "GameFrameX.Guide.Runtime",
     "GameFrameX.UI.FairyGUI.Runtime",
     "GameFrameX.AppsFlyer.Runtime",
+    "GameFrameX.Payment.Runtime",
     "GameFrameX.AppleLogin.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
@@ -168,6 +169,11 @@
       "name": "com.gameframex.unity.appsflyer",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_APPSFLYER"
+    },
+    {
+      "name": "com.gameframex.unity.payment",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_PAYMENT"
     },
     {
       "name": "com.gameframex.unity.applelogin",
