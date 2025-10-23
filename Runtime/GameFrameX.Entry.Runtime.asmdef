@@ -29,6 +29,7 @@
     "GameFrameX.UI.FairyGUI.Runtime",
     "GameFrameX.AppsFlyer.Runtime",
     "GameFrameX.Payment.Runtime",
+    "GameFrameX.GoogleLogin.Runtime",
     "GameFrameX.AppleLogin.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
@@ -174,6 +175,11 @@
       "name": "com.gameframex.unity.payment",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_PAYMENT"
+    },
+    {
+      "name": "com.gameframex.unity.googlelogin",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_GOOGLE_LOGIN"
     },
     {
       "name": "com.gameframex.unity.applelogin",
