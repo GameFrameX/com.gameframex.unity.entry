@@ -1,5 +1,5 @@
 #if ENABLE_GAME_FRAME_X_APPLE_LOGIN
-using GameFrameX.AppleLogin.Runtime;
+using GameFrameX.Login.Apple.Runtime;
 using GameFrameX.Runtime;
 
 public static partial class GameApp

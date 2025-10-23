@@ -30,7 +30,7 @@
     "GameFrameX.AppsFlyer.Runtime",
     "GameFrameX.Payment.Runtime",
     "GameFrameX.GoogleLogin.Runtime",
-    "GameFrameX.AppleLogin.Runtime"
+    "GameFrameX.Login.Apple.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -182,7 +182,7 @@
       "define": "ENABLE_GAME_FRAME_X_GOOGLE_LOGIN"
     },
     {
-      "name": "com.gameframex.unity.applelogin",
+      "name": "com.gameframex.unity.login.apple",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_APPLE_LOGIN"
     }
