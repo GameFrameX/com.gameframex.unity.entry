@@ -28,6 +28,7 @@
     "GameFrameX.Guide.Runtime",
     "GameFrameX.UI.FairyGUI.Runtime",
     "GameFrameX.AppsFlyer.Runtime",
+    "GameFrameX.AppleLogin.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -168,6 +169,10 @@
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_APPSFLYER"
     },
+    {
+      "name": "com.gameframex.unity.applelogin",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_APPLE_LOGIN"
     }
   ],
   "noEngineReferences": false
