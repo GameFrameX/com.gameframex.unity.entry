@@ -117,12 +117,12 @@
     {
       "name": "com.gameframex.unity.fairygui",
       "expression": "",
-      "define": "ENABLE_GAME_FRAME_X_FAIYGUI"
+      "define": "ENABLE_GAME_FRAME_X_FAIRYGUI"
     },
     {
       "name": "com.gameframex.unity.ui.fairygui",
       "expression": "",
-      "define": "ENABLE_GAME_FRAME_X_UI_FAIYGUI"
+      "define": "ENABLE_GAME_FRAME_X_UI_FAIRYGUI"
     },
     {
       "name": "com.gameframex.unity.ui",
