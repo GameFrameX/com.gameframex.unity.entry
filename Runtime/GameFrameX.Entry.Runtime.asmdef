@@ -29,6 +29,7 @@
     "GameFrameX.UI.FairyGUI.Runtime",
     "GameFrameX.AppsFlyer.Runtime",
     "GameFrameX.AdJust.Runtime",
+    "GameFrameX.ShareSdk.Runtime",
     "GameFrameX.Payment.Runtime",
     "GameFrameX.Login.Google.Runtime",
     "GameFrameX.Login.Apple.Runtime",
@@ -184,6 +185,11 @@
       "name": "com.gameframex.unity.payment",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_PAYMENT"
+    },
+    {
+      "name": "com.gameframex.unity.sharesdk",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_MOB_SHARE_SDK"
     },
     {
       "name": "com.gameframex.unity.login.google",
