@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.0.6...1.1.0) (2025-12-23)
+
+
+### Features
+
+* **ci:** change ci ([b73e941](https://github.com/gameframex/com.gameframex.unity.entry/commit/b73e941b8b760d54c5fbf740f46c219ddec6ba49))
+* **ci:** change ci ([041f5d5](https://github.com/gameframex/com.gameframex.unity.entry/commit/041f5d52426af445e57ad157297988080129990b))
+* **ShareSDK:** 添加MobShareSDK组件支持 ([d890c89](https://github.com/gameframex/com.gameframex.unity.entry/commit/d890c89e5bbf56eb8ccbd6c1af23978d493aacde))
+* **Web:** 添加Web ProtoBuff组件支持 ([76893d9](https://github.com/gameframex/com.gameframex.unity.entry/commit/76893d9f17c709d135cc7f4c156f59bb11b68431))
+
 # Changelog
 
 ## [1.0.5](https://github.com/GameFrameX/com.gameframex.unity.entry/tree/1.0.5) (2025-05-31)
