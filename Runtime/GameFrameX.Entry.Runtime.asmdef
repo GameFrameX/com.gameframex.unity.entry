@@ -36,7 +36,8 @@
     "GameFrameX.Login.Apple.Runtime",
     "GameFrameX.Login.FaceBook.Runtime",
     "GameFrameX.Login.QQ.Runtime",
-    "GameFrameX.Login.WeChat.Runtime"
+    "GameFrameX.Login.WeChat.Runtime",
+    "GameFrameX.LUGUI.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -136,6 +137,11 @@
       "name": "com.gameframex.unity.ui",
       "expression": "",
       "define": "ENABLE_GAME_FRAME_X_UI"
+    },
+    {
+      "name": "com.gameframex.unity.ugui",
+      "expression": "",
+      "define": "ENABLE_GAME_FRAME_X_L_UGUI"
     },
     {
       "name": "com.gameframex.unity.asset",
