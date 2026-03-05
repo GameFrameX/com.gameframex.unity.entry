@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.1.0...1.2.0) (2026-03-05)
+
+
+### Features
+
+* **GUI:** 添加UGUI组件支持到GameApp ([a91b270](https://github.com/gameframex/com.gameframex.unity.entry/commit/a91b270ae4c4099ad8ddb40e2a119dc4bd7fbc44))
+
 # [1.1.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.0.6...1.1.0) (2025-12-23)
 
 
