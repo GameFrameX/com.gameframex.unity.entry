@@ -1,17 +1,76 @@
-﻿## HOMEPAGE
+<div align="center">
 
-GameFrameX 的 入口 组件
+<img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="GameFrameX Logo" width="160"/>
 
-# 使用文档(文档编写于GPT4)
+# Game Frame X Entry Component
 
-## 注意事项
+[![License](https://img.shields.io/github/license/gameframex/com.gameframex.unity.entry)](https://github.com/gameframex/com.gameframex.unity.entry/blob/main/LICENSE)
+[![Version](https://img.shields.io/github/v/release/gameframex/com.gameframex.unity.entry)](https://github.com/gameframex/com.gameframex.unity.entry/releases)
+[![Documentation](https://img.shields.io/badge/Documentation-Documentation-blue)](https://gameframex.doc.alianblank.com)
 
-# 使用方式(任选其一)
+All-in-One Solution for Indie Game Development · Empowering Indie Developers' Dreams
 
-1. 直接在 `manifest.json` 的文件中的 `dependencies` 节点下添加以下内容
+[Documentation](https://gameframex.doc.alianblank.com) · [Quick Start](#quick-start) · [QQ Group](https://qm.qq.com/q/5kbDVBdUeS) · **Language**
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+
+</div>
+
+---
+
+## Project Overview
+
+The **Entry Component** is the core entry point of Game Frame X. It provides the `GameEntry` singleton and the `GameApp` static facade class for quick access to all framework components.
+
+### GameApp Shortcut
+
+`GameApp` is a static facade class that maps `GameApp.{Name}` to `GameEntry.GetComponent<{Name}Component>()`. Examples:
+
+| GameApp | Equivalent |
+|---|---|
+| `GameApp.Event` | `GameEntry.GetComponent<EventComponent>()` |
+| `GameApp.UI` | `GameEntry.GetComponent<UIComponent>()` |
+| `GameApp.Asset` | `GameEntry.GetComponent<AssetComponent>()` |
+
+Naming convention: property name = component name without the `Component` suffix (special cases: `FUI` = `FairyGUIComponent`, `GUI` = `UGUIComponent`).
+
+## Quick Start
+
+### Installation
+
+Choose one of the following methods:
+
+1. Add to `manifest.json` dependencies:
    ```json
-      {"com.gameframex.unity.entry": "https://github.com/AlianBlank/com.gameframex.unity.entry.git"}
-    ```
-2. 在Unity 的`Packages Manager` 中使用`Git URL` 的方式添加库,地址为：https://github.com/AlianBlank/com.gameframex.unity.entry.git
+   {
+      "com.gameframex.unity.entry": "https://github.com/AlianBlank/com.gameframex.unity.entry.git"
+   }
+   ```
+2. Use **Packages Manager** in Unity with **Git URL**: `https://github.com/AlianBlank/com.gameframex.unity.entry.git`
+3. Clone the repository into your Unity project's `Packages` directory. It will be loaded automatically.
 
-3. 直接下载仓库放置到Unity 项目的`Packages` 目录下。会自动加载识别
+## Usage Examples
+
+```csharp
+// Standard: via GameEntry (no dependency on com.gameframex.unity.entry)
+var component = GameEntry.GetComponent<EventComponent>();
+
+// Shortcut: via GameApp (requires com.gameframex.unity.entry)
+GameApp.Event.Subscribe(eventId, handler);
+```
+
+## Documentation & Resources
+
+- [Documentation](https://gameframex.doc.alianblank.com)
+
+## Community & Support
+
+- [QQ Group](https://qm.qq.com/q/5kbDVBdUeS)
+
+## Changelog
+
+See [Releases](https://github.com/gameframex/com.gameframex.unity.entry/releases) for changelog.
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/gameframex/com.gameframex.unity.entry/blob/main/LICENSE).
