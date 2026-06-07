@@ -20,6 +20,7 @@
 [English](README.md) | **简体中文** | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 </div>
+
 ## 项目简介
 
 **Entry 入口组件** 是 Game Frame X 的核心入口点。它提供 `GameEntry` 单例和 `GameApp` 静态门面类，用于快速访问所有框架组件。
