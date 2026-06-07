@@ -69,7 +69,6 @@ Then add the package to `dependencies`:
 }
 ```
 
-
 ## Usage Examples
 
 ```csharp
@@ -94,4 +93,4 @@ See [Releases](https://github.com/gameframex/com.gameframex.unity.entry/releases
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/gameframex/com.gameframex.unity.entry/blob/main/LICENSE).
+See [LICENSE.md](LICENSE.md) for license information.

@@ -69,7 +69,6 @@ Then add the package to `dependencies`:
 }
 ```
 
-
 ## 使用例
 
 ```csharp
@@ -94,4 +93,4 @@ GameApp.Event.Subscribe(eventId, handler);
 
 ## ライセンス
 
-このプロジェクトは [MIT ライセンス](https://github.com/gameframex/com.gameframex.unity.entry/blob/main/LICENSE) の下で公開されています。
+詳しくは [LICENSE.md](LICENSE.md) をご参照ください。
