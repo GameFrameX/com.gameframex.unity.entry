@@ -91,6 +91,31 @@ GameApp.Event.Subscribe(eventId, handler);
 
 변경 로그는 [Releases](https://github.com/gameframex/com.gameframex.unity.entry/releases)에서 확인하세요.
 
+
+## 의존성
+
+| 패키지 | 설명 |
+|--------|------|
+| `com.gameframex.unity.asset` | 2.5.0 |
+| `com.gameframex.unity.config` | 1.1.3 |
+| `com.gameframex.unity.coroutine` | 1.0.1 |
+| `com.gameframex.unity.download` | 1.1.0 |
+| `com.gameframex.unity.entity` | 2.4.1 |
+| `com.gameframex.unity.event` | 1.1.0 |
+| `com.gameframex.unity.fsm` | 1.0.3 |
+| `com.gameframex.unity.globalconfig` | 1.3.0 |
+| `com.gameframex.unity.localization` | 2.2.1 |
+| `com.gameframex.unity.mono` | 1.1.0 |
+| `com.gameframex.unity.network` | 2.5.1 |
+| `com.gameframex.unity.procedure` | 1.1.0 |
+| `com.gameframex.unity.scene` | 2.2.0 |
+| `com.gameframex.unity.setting` | 1.5.0 |
+| `com.gameframex.unity.sound` | 1.1.1 |
+| `com.gameframex.unity.timer` | 1.1.0 |
+| `com.gameframex.unity.ui` | 2.10.0 |
+| `com.gameframex.unity.ui.fairygui` | 3.3.0 |
+| `com.gameframex.unity.web` | 1.3.3 |
+| `com.gameframex.unity.web.protobuff` | 1.1.1 |
 ## 라이선스
 
 자세한 내용은 [LICENSE.md](LICENSE.md) 파일을 참조하세요.
