@@ -1,23 +1,24 @@
 <div align="center">
 
-<img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="GameFrameX Logo" width="160"/>
+<img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="Game Frame X Logo" width="160" />
 
 # Game Frame X Entry 入口組件
 
-[![License](https://img.shields.io/github/license/gameframex/com.gameframex.unity.entry)](https://github.com/gameframex/com.gameframex.unity.entry/blob/main/LICENSE)
-[![Version](https://img.shields.io/github/v/release/gameframex/com.gameframex.unity.entry)](https://github.com/gameframex/com.gameframex.unity.entry/releases)
-[![Documentation](https://img.shields.io/badge/Documentation-文檔-blue)](https://gameframex.doc.alianblank.com)
+[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.entry)](https://github.com/GameFrameX/com.gameframex.unity.entry/blob/main/LICENSE.md)
+[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.entry)](https://github.com/GameFrameX/com.gameframex.unity.entry/releases)
+[![Documentation](https://img.shields.io/badge/Documentation-docs-blue)](https://gameframex.doc.alianblank.com)
 
 獨立遊戲前後端一體化解決方案 · 獨立遊戲開發者的圓夢大使
 
-[文檔](https://gameframex.doc.alianblank.com) · [快速開始](#快速開始) · [QQ群](https://qm.qq.com/q/5kbDVBdUeS) · **語言**
+<br />
+
+[文檔](https://gameframex.doc.alianblank.com) · [快速開始](#快速開始) · [QQ群](https://qm.qq.com/q/5kbDVBdUeS)
+
+<br />
 
 [English](README.md) | [简体中文](README.zh-CN.md) | **繁體中文** | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 </div>
-
----
-
 ## 項目簡介
 
 **Entry 入口組件** 是 Game Frame X 的核心入口點。它提供 `GameEntry` 單例和 `GameApp` 靜態門面類別，用於快速存取所有框架組件。
