@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.2.2...1.3.0) (2026-07-03)
+
+
+### Features
+
+* **entry:** 移除 GameApp.FairyGUI 快捷访问扩展 ([7012d29](https://github.com/gameframex/com.gameframex.unity.entry/commit/7012d296ebf8108d728b7c09751e555dc7ee2f1d))
+* **entry:** 移除 GameApp.ShareSDK 快捷访问扩展 ([1815679](https://github.com/gameframex/com.gameframex.unity.entry/commit/1815679d5eb04bbce3cbf2ccbb3729581782188b))
+
 ## [1.2.2](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.2.1...1.2.2) (2026-06-07)
 
 

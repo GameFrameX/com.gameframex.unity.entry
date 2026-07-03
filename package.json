@@ -3,7 +3,7 @@
   "displayName": "Game Frame X Entry",
   "category": "GameFrameX",
   "description": "GameFrameX Entry — application entry point and facade layer package. Provides a static GameApp class aggregating lazy-loaded accessors to all framework subsystems (Procedure, Scene, Network, FSM, Entity, Download, Timer, UI, Audio, Analytics, etc.) with conditional compilation so only used subsystems are compiled in. Docs: https://gameframex.doc.alianblank.com\n\nGameFrameX Entry — 应用入口与门面层功能包。提供静态 GameApp 类，聚合所有框架子系统的延迟加载访问器（Procedure、Scene、Network、FSM、Entity、Download、Timer、UI、Audio、Analytics 等），通过条件编译确保只编译已使用的子系统。文档：https://gameframex.doc.alianblank.com",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "unity": "2019.4",
   "keywords": [
     "GameFrameX",
