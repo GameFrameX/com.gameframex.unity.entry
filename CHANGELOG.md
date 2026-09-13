@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.3.1...1.3.2) (2026-09-13)
+
+
+### Bug Fixes
+
+* **entry:** 触发补丁版本发布 ([962b2ad](https://github.com/gameframex/com.gameframex.unity.entry/commit/962b2ad2789b5c9c679b93f09c4ed1e9391d3d16))
+
 ## [1.3.1](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.3.0...1.3.1) (2026-07-22)
 
 
