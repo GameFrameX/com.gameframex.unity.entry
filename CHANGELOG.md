@@ -1,3 +1,18 @@
+# [2.0.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.3.2...2.0.0) (2026-10-15)
+
+
+* feat(entry)!: GameApp 核心访问器改为模块接口直达 ([945384f](https://github.com/gameframex/com.gameframex.unity.entry/commit/945384f06c572f37fed785ad59b9ec103c7bccc8))
+
+
+### Features
+
+* **entry:** 登录访问面收敛为单一 GameApp.Login ([be3171c](https://github.com/gameframex/com.gameframex.unity.entry/commit/be3171c60b66bc7a95239dd915cd926604dcbd87))
+
+
+### BREAKING CHANGES
+
+* GameApp 六个访问器返回类型由组件改为模块接口。
+
 ## [Unreleased]
 
 ### ⚠ BREAKING CHANGES
