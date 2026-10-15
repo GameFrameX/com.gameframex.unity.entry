@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/gameframex/com.gameframex.unity.entry/compare/2.0.0...2.0.1) (2026-10-15)
+
+
+### Bug Fixes
+
+* **dependencies:** 对齐依赖至实际发布版本 ([0b42705](https://github.com/gameframex/com.gameframex.unity.entry/commit/0b42705a1b2a3873ba9a2455416033f9269cada9))
+
 # [2.0.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.3.2...2.0.0) (2026-10-15)
 
 
