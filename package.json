@@ -20,7 +20,7 @@
     "url": "https://gameframex.doc.alianblank.com"
   },
   "dependencies": {
-    "com.gameframex.unity.asset": "4.0.0",
+    "com.gameframex.unity.asset": "5.0.0",
     "com.gameframex.unity.config": "2.0.0",
     "com.gameframex.unity.coroutine": "1.2.1",
     "com.gameframex.unity.download": "2.0.0",
