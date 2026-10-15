@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/gameframex/com.gameframex.unity.entry/compare/2.0.1...2.0.2) (2026-10-15)
+
+
+### Bug Fixes
+
+* **dependencies:** asset 依赖升至 5.0.0 ([68cdd87](https://github.com/gameframex/com.gameframex.unity.entry/commit/68cdd877f1dc1d611c1121c8a7fef0254371ef64))
+
 ## [2.0.1](https://github.com/gameframex/com.gameframex.unity.entry/compare/2.0.0...2.0.1) (2026-10-15)
 
 
