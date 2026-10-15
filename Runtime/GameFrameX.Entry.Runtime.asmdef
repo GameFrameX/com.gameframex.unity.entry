@@ -32,11 +32,7 @@
     "GameFrameX.AdJust.Runtime",
     "GameFrameX.ShareSdk.Runtime",
     "GameFrameX.Payment.Runtime",
-    "GameFrameX.Login.Google.Runtime",
-    "GameFrameX.Login.Apple.Runtime",
-    "GameFrameX.Login.FaceBook.Runtime",
-    "GameFrameX.Login.QQ.Runtime",
-    "GameFrameX.Login.WeChat.Runtime"
+    "GameFrameX.Login.Runtime"
   ],
   "rootNamespace": "GameFrameX.Entry.Runtime",
   "includePlatforms": [],
@@ -198,29 +194,9 @@
       "define": "ENABLE_GAME_FRAME_X_MOB_SHARE_SDK"
     },
     {
-      "name": "com.gameframex.unity.login.google",
+      "name": "com.gameframex.unity.login",
       "expression": "",
-      "define": "ENABLE_GAME_FRAME_X_GOOGLE_LOGIN"
-    },
-    {
-      "name": "com.gameframex.unity.login.facebook",
-      "expression": "",
-      "define": "ENABLE_GAME_FRAME_X_FACEBOOK_LOGIN"
-    },
-    {
-      "name": "com.gameframex.unity.login.wechat",
-      "expression": "",
-      "define": "ENABLE_GAME_FRAME_X_WECHAT_LOGIN"
-    },
-    {
-      "name": "com.gameframex.unity.login.qq",
-      "expression": "",
-      "define": "ENABLE_GAME_FRAME_X_QQ_LOGIN"
-    },
-    {
-      "name": "com.gameframex.unity.login.apple",
-      "expression": "",
-      "define": "ENABLE_GAME_FRAME_X_APPLE_LOGIN"
+      "define": "ENABLE_GAME_FRAME_X_LOGIN"
     }
   ],
   "noEngineReferences": false
