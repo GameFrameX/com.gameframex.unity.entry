@@ -2,7 +2,7 @@
   "name": "com.gameframex.unity.entry",
   "displayName": "Game Frame X Entry",
   "category": "GameFrameX",
-  "description": "GameFrameX Entry — application entry point and facade layer package. Provides a static GameApp class aggregating lazy-loaded accessors to all framework subsystems (Procedure, Scene, Network, FSM, Entity, Download, Timer, UI, Audio, Analytics, etc.) with conditional compilation so only used subsystems are compiled in. Docs: https://gameframex.doc.alianblank.com\n\nGameFrameX Entry — 应用入口与门面层功能包。提供静态 GameApp 类，聚合所有框架子系统的延迟加载访问器（Procedure、Scene、Network、FSM、Entity、Download、Timer、UI、Audio、Analytics 等），通过条件编译确保只编译已使用的子系统。文档：https://gameframex.doc.alianblank.com",
+  "description": "GameFrameX Entry — application entry point and facade layer package. Provides the static GameApp class aggregating accessors to framework subsystems (Asset, Scene, Network, Entity, Download, UI, Sound, Setting, Localization, Coroutine, Web, Procedure, GlobalConfig, Timer, Event, Fsm, Mono, Config, ObjectPool, Login, Payment and more) with conditional compilation so only used subsystems are compiled in. Core accessors return module interfaces directly through a session-aware cache that re-resolves modules automatically after Shutdown / Restart. Docs: https://gameframex.doc.alianblank.com\n\nGameFrameX Entry — 应用入口与门面层功能包。提供静态 GameApp 类聚合框架子系统访问器（Asset、Scene、Network、Entity、Download、UI、Sound、Setting、Localization、Coroutine、Web、Procedure、GlobalConfig、Timer、Event、Fsm、Mono、Config、ObjectPool、Login、Payment 等），经条件编译确保只编译已使用的子系统。核心访问器经会话感知缓存直接返回模块接口，Shutdown / Restart 后自动重新解析模块实例。文档：https://gameframex.doc.alianblank.com",
   "version": "1.3.2",
   "unity": "2019.4",
   "keywords": [
