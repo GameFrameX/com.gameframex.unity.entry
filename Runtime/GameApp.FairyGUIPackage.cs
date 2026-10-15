@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取UI包管理组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static FairyGUIPackageComponent FUIPackage
     {
         get

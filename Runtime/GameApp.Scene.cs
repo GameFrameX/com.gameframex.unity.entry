@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取场景组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static SceneComponent Scene
     {
         get

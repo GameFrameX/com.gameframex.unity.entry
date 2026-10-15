@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取本地化组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static LocalizationComponent Localization
     {
         get

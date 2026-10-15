@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取网络组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static NetworkComponent Network
     {
         get

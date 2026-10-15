@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取 Payment 组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static PaymentComponent Payment
     {
         get

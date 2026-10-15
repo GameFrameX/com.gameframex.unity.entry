@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取游戏分析组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static GameAnalyticsComponent GameAnalytics
     {
         get

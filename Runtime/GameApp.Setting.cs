@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取配置组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static SettingComponent Setting
     {
         get

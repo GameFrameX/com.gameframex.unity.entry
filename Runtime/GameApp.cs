@@ -36,6 +36,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取游戏基础组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static BaseComponent Base
     {
         get

@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取红点组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static RedDotComponent RedDot
     {
         get

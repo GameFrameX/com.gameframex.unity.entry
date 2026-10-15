@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取流程组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static ProcedureComponent Procedure
     {
         get

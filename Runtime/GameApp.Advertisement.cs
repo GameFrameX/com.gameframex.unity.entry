@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取广告组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static AdvertisementComponent Advertisement
     {
         get

@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取下载组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static DownloadComponent Download
     {
         get

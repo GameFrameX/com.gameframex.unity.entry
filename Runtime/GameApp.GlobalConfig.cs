@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取全局配置组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static GlobalConfigComponent GlobalConfig
     {
         get

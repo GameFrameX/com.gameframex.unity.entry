@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取 AdJust 组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static AdJustComponent AdJust
     {
         get

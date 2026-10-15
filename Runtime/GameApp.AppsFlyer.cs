@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取 AppsFlyer 组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static AppsFlyerComponent AppsFlyer
     {
         get

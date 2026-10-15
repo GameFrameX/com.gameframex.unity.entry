@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取引导组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static GuideComponent Guide
     {
         get

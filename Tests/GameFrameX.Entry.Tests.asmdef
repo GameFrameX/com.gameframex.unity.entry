@@ -1,0 +1,20 @@
+{
+    "name": "GameFrameX.Entry.Tests",
+    "rootNamespace": "GameFrameX.Entry.Tests",
+    "references": [
+        "GameFrameX.Runtime",
+        "GameFrameX.Entry.Runtime",
+        "GameFrameX.Timer.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

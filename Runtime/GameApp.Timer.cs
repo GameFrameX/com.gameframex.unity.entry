@@ -36,21 +36,12 @@ using GameFrameX.Timer.Runtime;
 public static partial class GameApp
 {
     /// <summary>
-    /// 获取定时器组件。
+    /// 获取定时器模块（经会话感知缓存，Shutdown 后自动重新解析）。
     /// </summary>
-    public static TimerComponent Timer
+    [UnityEngine.Scripting.Preserve]
+    public static ITimerManager Timer
     {
-        get
-        {
-            if (_timer == null)
-            {
-                _timer = GameEntry.GetComponent<TimerComponent>();
-            }
-
-            return _timer;
-        }
+        get { return GameAppModuleCache<ITimerManager>.Get(); }
     }
-
-    private static TimerComponent _timer;
 }
 #endif

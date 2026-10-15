@@ -38,6 +38,7 @@ public static partial class GameApp
     /// <summary>
     /// 获取实体组件。
     /// </summary>
+    [UnityEngine.Scripting.Preserve]
     public static EntityComponent Entity
     {
         get

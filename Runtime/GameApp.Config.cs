@@ -36,21 +36,12 @@ using GameFrameX.Runtime;
 public static partial class GameApp
 {
     /// <summary>
-    /// 获取配置组件。
+    /// 获取配置模块（经会话感知缓存，Shutdown 后自动重新解析）。
     /// </summary>
-    public static ConfigComponent Config
+    [UnityEngine.Scripting.Preserve]
+    public static IConfigManager Config
     {
-        get
-        {
-            if (_config == null)
-            {
-                _config = GameEntry.GetComponent<ConfigComponent>();
-            }
-
-            return _config;
-        }
+        get { return GameAppModuleCache<IConfigManager>.Get(); }
     }
-
-    private static ConfigComponent _config;
 }
 #endif
