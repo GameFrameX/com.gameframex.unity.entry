@@ -36,12 +36,22 @@ using GameFrameX.Mono.Runtime;
 public static partial class GameApp
 {
     /// <summary>
-    /// 获取 Mono 模块（经会话感知缓存，Shutdown 后自动重新解析）。
+    /// 获取 Mono 组件。
     /// </summary>
     [UnityEngine.Scripting.Preserve]
-    public static IMonoManager Mono
+    public static MonoComponent Mono
     {
-        get { return GameAppModuleCache<IMonoManager>.Get(); }
+        get
+        {
+            if (_mono == null)
+            {
+                _mono = GameEntry.GetComponent<MonoComponent>();
+            }
+
+            return _mono;
+        }
     }
+
+    private static MonoComponent _mono;
 }
 #endif

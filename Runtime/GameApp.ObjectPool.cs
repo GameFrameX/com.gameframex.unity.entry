@@ -35,11 +35,21 @@ using GameFrameX.Runtime;
 public static partial class GameApp
 {
     /// <summary>
-    /// 获取对象池模块（经会话感知缓存，Shutdown 后自动重新解析）。
+    /// 获取对象池组件。
     /// </summary>
     [UnityEngine.Scripting.Preserve]
-    public static IObjectPoolManager ObjectPool
+    public static ObjectPoolComponent ObjectPool
     {
-        get { return GameAppModuleCache<IObjectPoolManager>.Get(); }
+        get
+        {
+            if (_objectPool == null)
+            {
+                _objectPool = GameEntry.GetComponent<ObjectPoolComponent>();
+            }
+
+            return _objectPool;
+        }
     }
+
+    private static ObjectPoolComponent _objectPool;
 }

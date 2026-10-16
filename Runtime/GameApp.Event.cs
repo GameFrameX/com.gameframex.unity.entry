@@ -36,12 +36,22 @@ using GameFrameX.Runtime;
 public static partial class GameApp
 {
     /// <summary>
-    /// 获取事件模块（经会话感知缓存，Shutdown 后自动重新解析）。
+    /// 获取事件组件。
     /// </summary>
     [UnityEngine.Scripting.Preserve]
-    public static IEventManager Event
+    public static EventComponent Event
     {
-        get { return GameAppModuleCache<IEventManager>.Get(); }
+        get
+        {
+            if (_event == null)
+            {
+                _event = GameEntry.GetComponent<EventComponent>();
+            }
+
+            return _event;
+        }
     }
+
+    private static EventComponent _event;
 }
 #endif

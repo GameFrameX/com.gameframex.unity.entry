@@ -36,12 +36,22 @@ using GameFrameX.Fsm.Runtime;
 public static partial class GameApp
 {
     /// <summary>
-    /// 获取有限状态机模块（经会话感知缓存，Shutdown 后自动重新解析）。
+    /// 获取有限状态机组件。
     /// </summary>
     [UnityEngine.Scripting.Preserve]
-    public static IFsmManager Fsm
+    public static FsmComponent Fsm
     {
-        get { return GameAppModuleCache<IFsmManager>.Get(); }
+        get
+        {
+            if (_fsm == null)
+            {
+                _fsm = GameEntry.GetComponent<FsmComponent>();
+            }
+
+            return _fsm;
+        }
     }
+
+    private static FsmComponent _fsm;
 }
 #endif
