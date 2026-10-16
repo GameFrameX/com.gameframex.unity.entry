@@ -1,3 +1,17 @@
+# [3.0.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/2.0.2...3.0.0) (2026-10-16)
+
+
+### Features
+
+* **entry:** GameApp 访问器改回组件类型 ([827db62](https://github.com/gameframex/com.gameframex.unity.entry/commit/827db622a2ff9f4b1cf609e1b9c16162aa607b96))
+
+
+### BREAKING CHANGES
+
+* **entry:** GameApp 六个访问器返回类型由模块接口改为组件
+类型，取值路径由 GameFrameworkEntry.GetModule<T>() 改为
+GameEntry.GetComponent<T>()。
+
 ## [Unreleased]
 
 ### ⚠ BREAKING CHANGES
