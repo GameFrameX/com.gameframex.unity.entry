@@ -78,7 +78,7 @@
 var component = GameEntry.GetComponent<EventComponent>();
 
 // 단축: GameApp을 통해 (com.gameframex.unity.entry 필요)
-GameApp.Event.Subscribe(eventId, handler);
+GameApp.Event.CheckSubscribe(eventId, handler);
 ```
 
 ## 문서 및 자료

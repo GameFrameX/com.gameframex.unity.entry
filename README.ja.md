@@ -78,7 +78,7 @@
 var component = GameEntry.GetComponent<EventComponent>();
 
 // ショートカット: GameApp 経由（com.gameframex.unity.entry が必要）
-GameApp.Event.Subscribe(eventId, handler);
+GameApp.Event.CheckSubscribe(eventId, handler);
 ```
 
 ## ドキュメントとリソース

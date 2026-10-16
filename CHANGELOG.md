@@ -1,3 +1,24 @@
+## [Unreleased]
+
+### ⚠ BREAKING CHANGES
+
+* **entry:** `GameApp` 六个访问器（`Timer` / `Event` / `Fsm` / `Mono` / `Config` / `ObjectPool`）返回类型由模块接口改回组件，取值统一经 `GameEntry.GetComponent<T>()` 获取并静态缓存；移除会话感知模块缓存（`GameAppModuleCache<TModule>`）
+
+**访问器迁移对照：**
+
+| 旧访问器 | 新访问器 |
+|---|---|
+| `GameApp.Timer`（`ITimerManager`） | `GameApp.Timer`（`TimerComponent`） |
+| `GameApp.Event`（`IEventManager`） | `GameApp.Event`（`EventComponent`） |
+| `GameApp.Fsm`（`IFsmManager`） | `GameApp.Fsm`（`FsmComponent`） |
+| `GameApp.Mono`（`IMonoManager`） | `GameApp.Mono`（`MonoComponent`） |
+| `GameApp.Config`（`IConfigManager`） | `GameApp.Config`（`ConfigComponent`） |
+| `GameApp.ObjectPool`（`IObjectPoolManager`） | `GameApp.ObjectPool`（`ObjectPoolComponent`） |
+
+### Features
+
+* **entry:** 全部访问器统一为 `GameEntry.GetComponent<T>()` 组件获取方式；Shutdown / Restart 后静态缓存经 Unity fake-null 自动重新解析
+
 ## [2.0.2](https://github.com/gameframex/com.gameframex.unity.entry/compare/2.0.1...2.0.2) (2026-10-15)
 
 
@@ -26,28 +47,6 @@
 ### BREAKING CHANGES
 
 * GameApp 六个访问器返回类型由组件改为模块接口。
-
-## [Unreleased]
-
-### ⚠ BREAKING CHANGES
-
-* **entry:** `GameApp` 六个访问器（`Timer` / `Event` / `Fsm` / `Mono` / `Config` / `ObjectPool`）返回类型由组件改为模块接口，取值改经 `GameFrameworkEntry.GetModule<T>()` 直达
-
-**访问器迁移对照：**
-
-| 旧访问器 | 新访问器 |
-|---|---|
-| `GameApp.Timer`（`TimerComponent`） | `GameApp.Timer`（`ITimerManager`） |
-| `GameApp.Event`（`EventComponent`） | `GameApp.Event`（`IEventManager`） |
-| `GameApp.Fsm`（`FsmComponent`） | `GameApp.Fsm`（`IFsmManager`） |
-| `GameApp.Mono`（`MonoComponent`） | `GameApp.Mono`（`IMonoManager`） |
-| `GameApp.Config`（`ConfigComponent`） | `GameApp.Config`（`IConfigManager`） |
-| `GameApp.ObjectPool`（`ObjectPoolComponent`） | `GameApp.ObjectPool`（`IObjectPoolManager`） |
-
-### Features
-
-* **entry:** 新增会话感知模块缓存（`GameAppModuleCache<TModule>`）：以 `GameFrameworkEntry.SessionVersion` 检测会话重建，`Shutdown` 后访问器自动重新解析模块实例，无需手动清缓存
-* **entry:** 新增 Tests 程序集（`GameFrameX.Entry.Tests`），覆盖访问器会话重解析行为
 
 ## [1.3.2](https://github.com/gameframex/com.gameframex.unity.entry/compare/1.3.1...1.3.2) (2026-09-13)
 

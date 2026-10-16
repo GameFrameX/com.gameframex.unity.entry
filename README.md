@@ -78,7 +78,7 @@ Choose one of the following methods:
 var component = GameEntry.GetComponent<EventComponent>();
 
 // Shortcut: via GameApp (requires com.gameframex.unity.entry)
-GameApp.Event.Subscribe(eventId, handler);
+GameApp.Event.CheckSubscribe(eventId, handler);
 ```
 
 ## Documentation & Resources

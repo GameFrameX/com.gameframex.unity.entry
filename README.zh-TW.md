@@ -78,7 +78,7 @@
 var component = GameEntry.GetComponent<EventComponent>();
 
 // 快捷方式：透過 GameApp（需要 com.gameframex.unity.entry）
-GameApp.Event.Subscribe(eventId, handler);
+GameApp.Event.CheckSubscribe(eventId, handler);
 ```
 
 ## 文檔與資源
