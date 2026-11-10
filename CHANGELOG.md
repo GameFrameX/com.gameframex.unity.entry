@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/gameframex/com.gameframex.unity.entry/compare/4.0.0...4.0.1) (2026-11-10)
+
+
+### Bug Fixes
+
+* **entry:** 添加完整 link.xml 防代码裁剪保护 ([42370e3](https://github.com/gameframex/com.gameframex.unity.entry/commit/42370e30704b1cc1abfd04ec3f43c343b90ecaf8))
+
 # [4.0.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/3.0.0...4.0.0) (2026-11-10)
 
 
