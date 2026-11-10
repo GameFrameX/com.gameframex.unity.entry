@@ -1,3 +1,16 @@
+# [4.0.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/3.0.0...4.0.0) (2026-11-10)
+
+
+### Build System
+
+* **entry:** 清空 package.json 依赖列表 ([c048c31](https://github.com/gameframex/com.gameframex.unity.entry/commit/c048c31f755903de2ea2c24e1eae6169e4c1cae9))
+
+
+### BREAKING CHANGES
+
+* **entry:** entry 不再自动拉取全部子包，项目需在
+manifest.json 显式声明实际使用的 GameFrameX 包。
+
 # [3.0.0](https://github.com/gameframex/com.gameframex.unity.entry/compare/2.0.2...3.0.0) (2026-10-16)
 
 
